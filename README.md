@@ -353,7 +353,7 @@ lcc: "main.cpp", line 90: error #20: identifier "co_yield" is undefined
       ^
 ```
 
-Использование флага -fcoroutines также говорит нам о том, что LCC не
+Использование флага `-fcoroutines` также говорит нам о том, что LCC не
 имеет поддержки корутин:
 
 `lcc: error: unrecognized command line option "-fcoroutines"`
